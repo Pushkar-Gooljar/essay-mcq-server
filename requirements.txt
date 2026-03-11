@@ -1,4 +1,1 @@
-mcp[cli]
 fastmcp
-uvicorn
-starlette

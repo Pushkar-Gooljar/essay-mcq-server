@@ -3,13 +3,10 @@ import os
 import random
 import re
 from collections import defaultdict
-from mcp.server.fastmcp import FastMCP
-from starlette.middleware.cors import CORSMiddleware
-import uvicorn
+from fastmcp import FastMCP
 
 # ── Init ──────────────────────────────────────────────────────────────────────
-port = int(os.environ.get("PORT", 8000))
-mcp = FastMCP("GP Question Bank", host="0.0.0.0", port=port)
+mcp = FastMCP("GP Question Bank", host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
 
 with open("classified_questions.json", "r") as f:
     QUESTION_DB = json.load(f)
@@ -25,6 +22,7 @@ def _fmt_category(key: str) -> str:
     return CATEGORY_LABELS.get(key, key.replace("_", " ").title())
 
 def _all_questions() -> list[dict]:
+    """Flat list of every question with category + sub_topic attached."""
     out = []
     for cat, subtopics in QUESTION_DB.items():
         for sub, questions in subtopics.items():
@@ -77,8 +75,10 @@ def get_categories() -> list[dict]:
 def get_sub_topics(category: str) -> list[dict]:
     """
     Returns all sub-topics for a category with question counts.
-    Pass the category key or a partial/friendly name — the tool will fuzzy-match.
+    Pass the category key (e.g. 'economic_historical_moral_political_and_social')
+    or a partial/friendly name — the tool will fuzzy-match.
     """
+    # fuzzy match
     matched = None
     for key in QUESTION_DB:
         if category.lower() in key.lower() or key.lower() in category.lower():
@@ -104,7 +104,9 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
     """
     Returns all questions for a specific category + sub-topic pair.
     Both arguments support fuzzy/partial matching.
+    Each question includes: paper code, question number, and full text.
     """
+    # match category
     matched_cat = None
     for key in QUESTION_DB:
         if category.lower() in key.lower() or key.lower() in category.lower():
@@ -113,6 +115,7 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
     if not matched_cat:
         return [{"error": f"Category '{category}' not found."}]
 
+    # match sub-topic
     matched_sub = None
     for sub in QUESTION_DB[matched_cat]:
         if sub_topic.lower() in sub.lower() or sub.lower() in sub_topic.lower():
@@ -141,6 +144,10 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
 def search_questions(keyword: str, max_results: int = 20) -> dict:
     """
     Full-text search across all questions.
+    Returns matched questions with their category, sub-topic, paper, and text.
+    Args:
+        keyword:     Word or phrase to search for (case-insensitive).
+        max_results: Cap on results returned (default 20, max 100).
     """
     max_results = min(max_results, 100)
     pattern = re.compile(re.escape(keyword), re.IGNORECASE)
@@ -166,7 +173,8 @@ def search_questions(keyword: str, max_results: int = 20) -> dict:
 def search_by_paper(paper_code: str) -> list[dict]:
     """
     Retrieves all questions from a specific past paper.
-    Supports partial matching.
+    Example paper codes: '8021_w22_qp_11', '8019_s23_qp_12'
+    Supports partial matching (e.g. 'w22' returns all winter 2022 papers).
     """
     results = []
     for q in _all_questions():
@@ -185,6 +193,11 @@ def search_by_paper(paper_code: str) -> list[dict]:
 def search_multi_keyword(keywords: list[str], match_all: bool = False, max_results: int = 20) -> dict:
     """
     Search questions matching multiple keywords.
+    Args:
+        keywords:    List of words/phrases to search for.
+        match_all:   If True, question must contain ALL keywords (AND logic).
+                     If False, any keyword matches (OR logic). Default: False.
+        max_results: Cap on results (default 20).
     """
     max_results = min(max_results, 100)
     patterns = [re.compile(re.escape(kw), re.IGNORECASE) for kw in keywords]
@@ -210,14 +223,16 @@ def search_multi_keyword(keywords: list[str], match_all: bool = False, max_resul
     }
 
 
-# ═════════════��══════════════════════════════════════════════════════════════
+# ════════════════════════════════════════════════════════════════════════════
 # 3. RANDOM / PRACTICE
 # ════════════════════════════════════════════════════════════════════════════
 
 @mcp.tool()
 def get_random_question(category: str = "", sub_topic: str = "") -> dict:
     """
-    Returns a single random question, optionally filtered.
+    Returns a single random question, optionally filtered by category and/or sub-topic.
+    Leave blank for a completely random question from the whole bank.
+    Perfect for surprise practice or warm-up questions.
     """
     pool = _all_questions()
     if category:
@@ -245,7 +260,12 @@ def get_practice_set(
     avoid_papers: list[str] = [],
 ) -> dict:
     """
-    Generates a unique practice set of n random questions.
+    Generates a unique practice set of n random questions (no duplicates).
+    Args:
+        n:             Number of questions (1–20). Default 5.
+        category:      Optional category filter.
+        sub_topic:     Optional sub-topic filter.
+        avoid_papers:  List of paper codes to exclude (e.g. papers you've done).
     """
     n = min(max(n, 1), 20)
     pool = _all_questions()
@@ -279,7 +299,10 @@ def get_practice_set(
 @mcp.tool()
 def get_balanced_practice_set(n_per_category: int = 2) -> dict:
     """
-    Generates a balanced practice set with equal questions from each category.
+    Generates a balanced practice set with equal questions from each of the 3 categories.
+    Great for full-syllabus revision sessions.
+    Args:
+        n_per_category: Questions per category (1–5). Total = n × 3. Default 2.
     """
     n_per_category = min(max(n_per_category, 1), 5)
     result = {"total": n_per_category * 3, "questions": []}
@@ -310,7 +333,11 @@ def get_balanced_practice_set(n_per_category: int = 2) -> dict:
 @mcp.tool()
 def get_topic_stats() -> dict:
     """
-    Returns rich statistics about the question bank.
+    Returns rich statistics about the question bank:
+    - Top 5 most-questioned sub-topics overall
+    - Least-covered sub-topics (revision gaps)
+    - Question counts per category
+    Useful for identifying high-priority revision areas.
     """
     topic_counts = []
     for cat, subtopics in QUESTION_DB.items():
@@ -332,6 +359,7 @@ def get_topic_stats() -> dict:
 def get_paper_index() -> dict:
     """
     Lists every unique past paper in the database with a question count.
+    Useful for seeing which years/sessions are represented.
     """
     paper_map: dict[str, int] = defaultdict(int)
     for q in _all_questions():
@@ -347,10 +375,14 @@ def get_paper_index() -> dict:
 def get_questions_by_year(year: str) -> dict:
     """
     Returns all questions from a specific year.
+    Args:
+        year: 2-digit or 4-digit year, e.g. '22' or '2022'.
     """
+    # normalise to 2-digit suffix used in paper codes
     yr = year[-2:] if len(year) >= 2 else year
     results = []
     for q in _all_questions():
+        # paper codes contain 'w22', 's22', 'm22' style
         if f"_{yr}_" in q["paper"] or q["paper"].endswith(f"_{yr}"):
             results.append({
                 "paper": q["paper"],
@@ -370,6 +402,9 @@ def get_questions_by_year(year: str) -> dict:
 def get_keyword_frequency(top_n: int = 20) -> list[dict]:
     """
     Analyses question text to find the most frequently appearing meaningful words.
+    Ignores common stop-words.
+    Args:
+        top_n: How many top keywords to return (default 20).
     """
     STOP = {
         "the","a","an","and","or","but","in","on","to","of","for","with",
@@ -395,7 +430,8 @@ def get_keyword_frequency(top_n: int = 20) -> list[dict]:
 @mcp.tool()
 def compare_topics(sub_topic_a: str, sub_topic_b: str) -> dict:
     """
-    Compares two sub-topics side-by-side.
+    Compares two sub-topics side-by-side: question counts, sample questions, and common keywords.
+    Helpful for deciding which topic needs more revision.
     """
     def _find(sub: str):
         for cat, subtopics in QUESTION_DB.items():
@@ -441,7 +477,12 @@ def compare_topics(sub_topic_a: str, sub_topic_b: str) -> dict:
 @mcp.tool()
 def get_revision_priority(weak_topics: list[str]) -> dict:
     """
-    Given a list of weak topics, returns questions and suggested study order.
+    Given a list of topics you find difficult, returns:
+    - All questions for those topics
+    - Question count per topic
+    - A suggested study order (most questions first = most exam weight)
+    Args:
+        weak_topics: List of sub-topic names (partial matching supported).
     """
     results = {}
     for topic in weak_topics:
@@ -453,6 +494,7 @@ def get_revision_priority(weak_topics: list[str]) -> dict:
                         "question_count": len(qs),
                         "questions": [q["text"] for q in qs],
                     }
+    # sort by question count (more = higher exam frequency)
     ordered = dict(sorted(results.items(), key=lambda x: x[1]["question_count"], reverse=True))
     return {
         "suggested_study_order": list(ordered.keys()),
@@ -463,7 +505,11 @@ def get_revision_priority(weak_topics: list[str]) -> dict:
 @mcp.tool()
 def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
     """
-    Finds the most thematically similar questions using word-overlap scoring.
+    Given a question or keywords, finds the most thematically similar questions
+    in the bank using word-overlap scoring.
+    Args:
+        question_text: The question (or theme) you want to find similar ones to.
+        top_n:         How many similar questions to return (default 5).
     """
     STOP = {"the","a","an","and","or","to","of","for","is","are","in","that","this","with","how"}
     query_words = set(re.findall(r"[a-zA-Z]{3,}", question_text.lower())) - STOP
@@ -487,19 +533,9 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
     ]
 
 
-# ════════════════════════════════════════════════════════════════════════��═══
-# Entry point — CORS-wrapped SSE server
+# ════════════════════════════════════════════════════════════════════════════
+# Entry point
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    app = mcp.sse_app()
-
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=["*"],
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
-
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    mcp.run(transport="http")

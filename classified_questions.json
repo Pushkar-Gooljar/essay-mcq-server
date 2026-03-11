@@ -1,0 +1,2696 @@
+{
+    "economic_historical_moral_political_and_social": {
+        "the_role_and_value_of_history_in_modern_society": [
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "1",
+                "text": "For many people, the past is more appealing than the present or the future. Discuss."
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "4",
+                "text": "To what extent is knowledge of the past a good guide to future events?"
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "1",
+                "text": "To what extent is history based on lies rather than facts?"
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "1",
+                "text": "Nations and peoples should always forgive the wrongs of the past. Evaluate this view."
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "2",
+                "text": "Studying local history is as important as world history. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "1",
+                "text": "History is always written from the point of view of the powerful. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "2",
+                "text": "‘The legacy of colonialism is alive today in many forms.’ Discuss."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "3",
+                "text": "‘Knowledge of historical events does not help us to plan for the future.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "5",
+                "text": "The study of history focuses too much on what people have done wrong. Discuss."
+            }
+        ],
+        "wars_conflicts_and_terrorism": [
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "10",
+                "text": "To what extent is the world a much safer place now than in the past?"
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "4",
+                "text": "‘Violence used for political reasons has always existed.’ Assess whether or not such violence is justified."
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "3",
+                "text": "To what extent is military spending justifiable when so many people live in poverty?"
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "2",
+                "text": "War is only ever destructive and brings nothing good. Evaluate this view."
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "1",
+                "text": "Countries with the largest armed forces always have an advantage. Evaluate this view."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "2",
+                "text": "Assess whether countries still need armed forces in order to remain powerful in today’s world."
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "4",
+                "text": "To what extent should war always be the last option when countries attempt to resolve conflicts?"
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "1",
+                "text": "Everyone must help their country in times of war. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "1",
+                "text": "Examine whether or not the human race might benefit from the development of more technologically advanced weapons."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "1",
+                "text": "All young people in your country should spend time serving in the armed forces. Discuss."
+            }
+        ],
+        "the_state_and_its_institutions": [
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "3",
+                "text": "To what extent can a nation’s written constitution safeguard people’s rights?"
+            }
+        ],
+        "political_systems_leadership_nationalism_and_forms_of_government": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "1",
+                "text": "To what extent is it important for your country to have a good relationship with its neighbours?"
+            },
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "10",
+                "text": "A successful democracy needs the active involvement of its citizens. To what extent is this important in your country?"
+            },
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "1",
+                "text": "An effective leader needs to be a good listener. Evaluate this statement."
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "1",
+                "text": "Evaluate the contribution of any politician or political party to the development of your country."
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "4",
+                "text": "‘Unlimited power is likely to corrupt the minds of those who possess it.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "1",
+                "text": "‘Election results are rarely predictable.’ Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "1",
+                "text": "To what extent do you agree that democracy is the most effective way of governing a society?"
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "2",
+                "text": "There are no great leaders in the world today. Discuss."
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "3",
+                "text": "Assess whether a one-party system is an effective form of government."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "8",
+                "text": "Democracy is the best form of government. Evaluate this view."
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "5",
+                "text": "Political leaders create fear rather than hope. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "2",
+                "text": "‘Democracy is the ideal form of government but it is very difficult to achieve.’ Assess this statement."
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "1",
+                "text": "Evaluate the qualities required for a successful government."
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "2",
+                "text": "Voting in national and regional elections should be a legal requirement. Discuss."
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "2",
+                "text": "To what extent does love of your country contribute to making it a stronger nation?"
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "2",
+                "text": "To what extent do flags unify or divide people?"
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "1",
+                "text": "Circumstances produce great leaders when they are needed. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "2",
+                "text": "To what extent has government enabled your country to develop and prosper?"
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "2",
+                "text": "To what extent do the personal characteristics of politicians influence how people vote?"
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "1",
+                "text": "To what extent should people be proud of the nation they belong to?"
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "5",
+                "text": "To what extent do individuals have the power to influence how your country is governed?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "2",
+                "text": "Successful leaders have to make unpopular decisions. Discuss."
+            }
+        ],
+        "the_role_of_international_organisations": [
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "2",
+                "text": "‘International organisations, such as the World Health Organization and the International Monetary Fund, have become more important in recent years.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "1",
+                "text": "International organisations are of essential importance in today’s world. To what extent do you agree with this statement?"
+            }
+        ],
+        "the_provision_and_politics_of_aid": [
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "1",
+                "text": "International aid never reaches those communities that are most in need. Discuss."
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "1",
+                "text": "‘The provision of foreign aid by wealthier nations is motivated as much by self-interest as by a desire to help.’ Assess this view."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "10",
+                "text": "To what extent do richer nations have a responsibility to help the world’s poor?"
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "3",
+                "text": "Examine the impact of international aid on ending world poverty."
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "10",
+                "text": "International aid benefits the people providing the aid more than the people receiving it. Discuss"
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "5",
+                "text": "Spending on foreign aid should be a priority for wealthy countries. Discuss."
+            }
+        ],
+        "justice_and_the_justice_system_prison_and_rehabilitation": [
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "6",
+                "text": "Modern technology has done little to prevent crime. Discuss."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "2",
+                "text": "‘Prison is ineffective in deterring criminal activity and rehabilitating offenders.’ Examine the possible alternatives to prison sentences."
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "4",
+                "text": "Prisons play a positive role in keeping societies safe. Evaluate this view."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "4",
+                "text": "Evaluate the view that the aim of prison should be to improve people rather than punish them."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "1",
+                "text": "Evaluate the effectiveness of rehabilitation in the justice system of your country."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "10",
+                "text": "Evaluate the effectiveness of the treatment of criminals in your country."
+            }
+        ],
+        "the_role_of_the_individual_in_society": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "3",
+                "text": "Assess the extent to which one person can change the course of events in society."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "3",
+                "text": "People achieve more success working in a group than on their own. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "3",
+                "text": "To what extent is a person’s identity defined by the geography of where they live?"
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "2",
+                "text": "To what extent do individuals have control over their own futures?"
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "2",
+                "text": "To what extent is financial management the responsibility of the individual?"
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "3",
+                "text": "Assess the importance of everyone in a community being a good neighbour."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "2",
+                "text": "‘There is more to being a good citizen than showing respect and consideration for others.’ Discuss with reference to your country."
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "4",
+                "text": "‘The modern world encourages self-interest rather than responsibility for others.’ Assess this view."
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "4",
+                "text": "People should always base their actions on the opinion of experts. Discuss."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "4",
+                "text": "Improvements in society are more likely to be achieved by groups rather than individuals. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "6",
+                "text": "Financial security is the responsibility of the individual. To what extent do you agree with this statement?"
+            }
+        ],
+        "family_marriage_and_partnerships_social_pressure_class_and_social_attitudes": [
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "3",
+                "text": "To what extent are traditional attitudes delaying progress in your country?"
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "1",
+                "text": "The most important role of a parent is to teach their child moral values. Discuss."
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "3",
+                "text": "To what extent has traditional family life lost its importance in your country?"
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "1",
+                "text": "Assess whether your country’s traditions are holding back its development."
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "4",
+                "text": "Marriage is no longer necessary in modern society. Evaluate this view."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "1",
+                "text": "‘Families are less united than they have ever been.’ Discuss this statement with reference to family values in your country."
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "4",
+                "text": "Evaluate how important it is for young people to spend more time with their families."
+            }
+        ],
+        "globalisation_and_its_impacts": [
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "2",
+                "text": "To what extent has globalisation brought only benefits to your country?"
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "3",
+                "text": "To what extent has the world become a ‘global village’?"
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "3",
+                "text": "The world is more divided now than ever. Examine this statement."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "6",
+                "text": "To what extent has globalisation improved people’s lives in your country?"
+            }
+        ],
+        "wealth_and_equality_in_society": [
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "5",
+                "text": "‘A government always acts in the interests of the wealthy.’ To what extent might this be true in your country?"
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "2",
+                "text": "The only way to achieve equality in society is for the rich to pay more tax. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "3",
+                "text": "People do not need a lot of money to be happy. Evaluate this statement."
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "10",
+                "text": "To what extent do you agree that it is possible to achieve equality of wealth in your country?"
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "3",
+                "text": "‘Wealth and happiness have nothing to do with income.’ Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "3",
+                "text": "To what extent would the even distribution of wealth bring social harmony to your country?"
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "3",
+                "text": "No nation can be truly happy unless all its citizens are equal. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "6",
+                "text": "The desire to make a lot of money is having a positive effect on today’s world. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "6",
+                "text": "To what extent is it desirable for all people in your country to earn the same amount of money?"
+            }
+        ],
+        "population_and_migration": [
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "6",
+                "text": "It is better to live in one location for your whole life. Discuss."
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "1",
+                "text": "Discuss the ways that overpopulation is the most serious threat to the world today."
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "5",
+                "text": "To what extent has migration harmed the development of your country?"
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "3",
+                "text": "To what extent is continued global population growth sustainable and desirable?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "3",
+                "text": "Human migration from one place to another brings many benefits. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "7",
+                "text": "Ageing populations bring many benefits to society. To what extent do you agree?"
+            }
+        ],
+        "education": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "1",
+                "text": "The main purpose of education is to enable people to get a good job. Discuss."
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "3",
+                "text": "To what extent is achievement in education restricted by a student’s family and social circumstances?"
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "6",
+                "text": "Digital learning is the most effective way of educating young people. Discuss."
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "1",
+                "text": "The management of personal finance should be a compulsory part of the school curriculum in your country. Discuss."
+            },
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "4",
+                "text": "Evaluate the view that education does not encourage creativity."
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "3",
+                "text": "It can never be justified to prevent a person from receiving an education. Discuss."
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "3",
+                "text": "‘Education is the most important factor in increasing social and economic opportunities.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "2",
+                "text": "To what extent should schools be allowed to decide their own curriculum?"
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "3",
+                "text": "To what extent should the ability to use Information Technology be education’s top priority?"
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "3",
+                "text": "The main purpose of education is to prepare people for the world of work. Discuss."
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "3",
+                "text": "To what extent are timed examinations a fair means of assessment?"
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "1",
+                "text": "To what extent do schools in your country encourage creativity?"
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "9",
+                "text": "Learning is more effective when students travel to places outside the classroom. Discuss."
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "5",
+                "text": "Online learning is the future of education. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "10",
+                "text": "‘An uneducated society has never existed.’ Discuss."
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "4",
+                "text": "Examine how young people can be inspired to become scientists and mathematicians in your country."
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "4",
+                "text": "A country’s continued development depends on the quality of education it provides. Discuss."
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "4",
+                "text": "In school, non-academic subjects are just as important as academic ones. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "2",
+                "text": "To what extent is the main priority of education to teach people to read?"
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "1",
+                "text": "When preparing for a career, work experience is more important than academic study. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "2",
+                "text": "Assess whether the teaching of speaking and listening skills should be given priority in schools."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "8",
+                "text": "Schools should encourage students to be competitive to prepare them for adulthood. Discuss."
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "7",
+                "text": "Evaluate the importance of the arts such as painting, drama and music in education."
+            }
+        ],
+        "welfare": [
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "3",
+                "text": "Assess the view that unpaid voluntary work benefits the participants more than it benefits the people the participants are trying to help."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "4",
+                "text": "A person’s welfare is the responsibility of their family. To what extent is this true in your country?"
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "1",
+                "text": "Evaluate the actions which could be taken in your country to improve the welfare of disadvantaged people."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "6",
+                "text": "To what extent are all disabled people provided for in your country?"
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "2",
+                "text": "Wealthy celebrities have a duty to give time and money to charitable causes. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "1",
+                "text": "To what extent does the government provide effective public services to the people of your country?"
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "1",
+                "text": "Assess how effectively the government of your country looks after the welfare of its people."
+            }
+        ],
+        "sport_and_leisure": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "2",
+                "text": "Evaluate the extent to which sport has become too competitive."
+            },
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "3",
+                "text": "Sports personalities have a very positive influence on others. To what extent is this true?"
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "4",
+                "text": "International sporting events bring no benefits to the host countries. Discuss."
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "7",
+                "text": "People participate in sporting activities mainly to improve their mental health. Discuss."
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "3",
+                "text": "Evaluate the view that professional sport has become dangerously obsessed with money."
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "3",
+                "text": "Evaluate the importance of public sports facilities for a society that is increasingly inactive."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "3",
+                "text": "‘The joy of sport is in taking part, rather than watching.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "2",
+                "text": "In sport, individual skill and talent are more important than teamwork. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "1",
+                "text": "Not enough is being done to ensure safety at sporting events. To what extent do you agree with this view?"
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "2",
+                "text": "‘Sport can unite people as well as divide them.’ Discuss."
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "2",
+                "text": "‘Physical activities in schools are essential aspects of education.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "2",
+                "text": "‘There should be more acknowledgement of women’s involvement in sport.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "3",
+                "text": "To what extent does sport produce good role models?"
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "3",
+                "text": "Hobbies are a very important part of people’s lives. Discuss."
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "3",
+                "text": "Men and women who play the same sport should receive equal pay. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "1",
+                "text": "International sporting events no longer represent the true nature of sport. Discuss"
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "8",
+                "text": "Assess the view that sport should be about enjoyment rather than winning."
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "1",
+                "text": "To what extent are disadvantaged people prevented from participating in sport?"
+            }
+        ],
+        "work_and_employment": [
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "2",
+                "text": "To what extent is it important for work to be enjoyable?"
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "4",
+                "text": "To what extent are workers’ rights respected in your country?"
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "1",
+                "text": "To what extent is working entirely from home preferable?"
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "3",
+                "text": "Evaluate the benefits and difficulties of working from home."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "3",
+                "text": "It is important to limit how long someone works each day. Discuss."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "9",
+                "text": "Essential workers are not appreciated enough in your country. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "8",
+                "text": "To what extent do you agree that individuals should be free to choose their work or school hours?"
+            }
+        ],
+        "industry_and_commerce": [
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "1",
+                "text": "Assess whether it is possible, or desirable, to revive industries which have declined."
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "2",
+                "text": "‘Engineers make a positive contribution to our lives today.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "1",
+                "text": "A business’s main aim is to maximise profits. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "6",
+                "text": "To what extent has online shopping improved people’s lives?"
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "1",
+                "text": "Assess the impact of unrestricted importing and exporting of goods and services between countries."
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "2",
+                "text": "Evaluate the importance of the architecture of your country in understanding its history."
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "1",
+                "text": "To what extent do you agree that rich corporations are now more powerful than governments?"
+            }
+        ],
+        "freedom_of_speech_thought_and_action": [
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "9",
+                "text": "People should be allowed to protest in any way they choose. Evaluate this statement."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "5",
+                "text": "The rights of people to protest on the streets should always be protected. Examine this statement."
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "3",
+                "text": "Giving people complete freedom of speech can cause more harm than good. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "1",
+                "text": "Protest groups have every right to adopt disruptive tactics. Examine this statement."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "8",
+                "text": "People should have the freedom to wear whatever clothes they choose. Discuss."
+            }
+        ],
+        "human_rights": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "3",
+                "text": "The human rights of an individual should be given priority in society. Discuss."
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "1",
+                "text": "Countries with poor human rights records should not be allowed to host international sporting events. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "2",
+                "text": "The rights of minority groups should be supported in your country. Discuss."
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "3",
+                "text": "‘The struggle for equal rights can never be won.’ Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "3",
+                "text": "To what extent is freedom of movement a fundamental human right?"
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "9",
+                "text": "Human rights are still not given enough importance in today’s world. Discuss."
+            }
+        ],
+        "animal_welfare": [
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "2",
+                "text": "Evaluate the view that it is justifiable to use animals in scientific research."
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "2",
+                "text": "‘Animals should be given the same rights as humans.’ Discuss."
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "1",
+                "text": "‘In the production of food, animal welfare should be a higher priority than cost.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "2",
+                "text": "‘The hunting of wild animals should be discouraged.’ Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "7",
+                "text": "The use of animals in sport can never be justified. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "4",
+                "text": "To what extent should humans be responsible for the welfare of animals?"
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "1",
+                "text": "Animal welfare is as important as human rights in a civilised society. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "3",
+                "text": "It is never justifiable to use animals for testing. Evaluate this statement."
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "3",
+                "text": "To what extent is animal welfare everyone’s responsibility?"
+            }
+        ],
+        "matters_of_conscience_faith_and_tolerance": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "2",
+                "text": "To what extent is having faith in something or someone very important to the people of your country?"
+            },
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "2",
+                "text": "Strong religious belief can be both beneficial and damaging. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "6",
+                "text": "To what extent is it important to be tolerant of the beliefs of others?"
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "1",
+                "text": "Assess the reasons for the decline of religious observance in some societies."
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "3",
+                "text": "‘Religious belief in the existence of a creator cannot be based on an argument or scientific investigation.’ Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "2",
+                "text": "Assess the challenges for societies where there are many faiths."
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "4",
+                "text": "Telling the truth is always the right thing to do. To what extent do you agree with this advice?"
+            }
+        ]
+    },
+    "science_environment_technology_and_mathematics": {
+        "medical_and_scientific_advances_and_their_ethics": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "4",
+                "text": "Examine whether or not advances in scientific research have enabled humans to live healthier lives."
+            },
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "6",
+                "text": "It is now possible for couples who cannot conceive naturally to have children. To what extent is this a positive development?"
+            },
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "7",
+                "text": "Examine whether there should be any limits to medical experimentation."
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "5",
+                "text": "All countries are now better prepared to prevent the spread of disease. Evaluate this statement."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "7",
+                "text": "Clinical trials for new medications should always be ethical. Discuss."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "5",
+                "text": "‘The overuse of antibiotics has made them less effective.’ To what extent is this a serious threat to health?"
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "7",
+                "text": "‘Scientific research and development could eventually increase human life expectancy to 150 years.’ To what extent is this desirable in your country?"
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "5",
+                "text": "Examine whether there should be any limits to the advances of medical science."
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "4",
+                "text": "Evaluate the extent to which recent scientific developments have improved people’s lives in your country."
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "2",
+                "text": "To what extent has science made the lives of people easier?"
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "6",
+                "text": "To what extent has genetic engineering positively changed people’s lives?"
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "5",
+                "text": "Modified animal organs could soon be transplanted into humans. To what extent is this desirable?"
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "5",
+                "text": "Scientists can now successfully edit genes in human embryos. Assess the advantages and disadvantages of this."
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "5",
+                "text": "‘Some developments in medicine appear to ignore ethical issues.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "5",
+                "text": "‘Medical research should only be concerned with finding cures for the world’s deadliest diseases.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "5",
+                "text": "The work of scientists should never be restricted. Evaluate this statement."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "4",
+                "text": "Science has caused more problems than it has solved. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "4",
+                "text": "A country’s government should do everything possible to control the spread of infectious diseases. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "5",
+                "text": "Evaluate the view that there is no place for creativity in scientific research."
+            }
+        ],
+        "drug_testing_manufacture_and_provision": [
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "5",
+                "text": "Careful testing is the most important consideration when developing new medicines. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "3",
+                "text": "Companies that manufacture medicines are only interested in profit. Discuss."
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "5",
+                "text": "New medicines should always be fully tested before people use them. To what extent do you agree with this statement?"
+            }
+        ],
+        "diet_health_education_and_provision_of_healthcare": [
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "4",
+                "text": "There is no longer any justification for humans to eat meat. Discuss."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "10",
+                "text": "‘Free medical care is a fundamental right of all citizens in every country.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "3",
+                "text": "‘Inequality in life expectancy between the rich and poor is growing.’ To what extent is health the responsibility of the individual?"
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "6",
+                "text": "To what extent do you agree that an obsession with health is unhealthy?"
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "6",
+                "text": "Assess the advantages and disadvantages of free health care for all."
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "6",
+                "text": "Evaluate how important it is for a person’s health, to spend time in the natural world."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "5",
+                "text": "It is every parent’s responsibility to ensure that their children have a healthy lifestyle. Discuss."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "8",
+                "text": "To what extent does a plant-based diet ensure a healthy lifestyle?"
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "5",
+                "text": "‘Without good health it is still possible to lead a fulfilling life.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "3",
+                "text": "‘The main responsibility for health education lies with schools.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "6",
+                "text": "It is possible to live a healthy lifestyle without being careful about what we eat. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "6",
+                "text": "A careful diet is the most important part of a healthy life. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "6",
+                "text": "Living a longer life is not always desirable. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "7",
+                "text": "To what extent do online appointments with patients improve the way doctors provide care?"
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "3",
+                "text": "To what extent is health education effective in your country?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "7",
+                "text": "What an individual chooses to eat and drink is of no concern to anyone else. Evaluate this statement."
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "1",
+                "text": "The government should protect the health of all citizens in your country. To what extent do you agree with this view?"
+            }
+        ],
+        "space_exploration_and_its_associated_industry": [
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "5",
+                "text": "To what extent has space exploration benefitted humankind?"
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "5",
+                "text": "‘It is difficult to justify spending money on space exploration while poverty exists.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "6",
+                "text": "To what extent do you agree that space tourism is a waste of precious resources?"
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "7",
+                "text": "To what extent has satellite technology improved the lives of people in your country?"
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "6",
+                "text": "There are no benefits to space tourism. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "7",
+                "text": "Evaluate the view that space exploration should be publicly funded."
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "2",
+                "text": "Space travel and exploration should be managed by private companies rather than governments. Discuss this view."
+            }
+        ],
+        "information_and_communications_technology": [
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "5",
+                "text": "Evaluate whether playing video games is beneficial to people."
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "7",
+                "text": "Evaluate the view that computer technology makes it much easier to learn another language."
+            },
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "7",
+                "text": "To what extent has modern technology allowed people to spend their money more effectively?"
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "7",
+                "text": "The increasing use of social media is damaging people’s communication skills. Discuss."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "6",
+                "text": "Assess whether or not mobile phones have improved human communication."
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "6",
+                "text": "‘Social media is now one of the main forms of communication.’ Assess the impact of this on society today."
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "7",
+                "text": "To what extent might freedom increase if people turned off their mobile phones and computer screens?"
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "5",
+                "text": "Computer hacking is the greatest threat for the communication of information on the internet. Discuss."
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "4",
+                "text": "‘In the digital age, we are more reliably informed than we have ever been.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "5",
+                "text": "Using a telephone is the best way of communicating. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "5",
+                "text": "Using a telephone is the best way of communicating. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "5",
+                "text": "Examine the extent to which information and communications technology is having a negative impact on your country."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "9",
+                "text": "Genuine friendships can never be made only online. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "7",
+                "text": "Mobile devices designed to connect people actually increase social isolation. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "6",
+                "text": "Artificial intelligence should be welcomed not feared. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "6",
+                "text": "Evaluate the implications for individuals and society of a world that depends on information technology."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "4",
+                "text": "To what extent has increased internet use caused problems for law enforcement agencies?"
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "1",
+                "text": "Evaluate the necessity for online communications in running a business."
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "7",
+                "text": "Technology can never fully replace people. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "6",
+                "text": "To what extent do you agree that computer technology has decreased our quality of life?"
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "4",
+                "text": "To what extent have computer games had a positive impact on people?"
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "4",
+                "text": "Computer technology has made everyday life safer for everyone. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "4",
+                "text": "To what extent should people fear developments in artificial intelligence (AI)?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "4",
+                "text": "To what extent does social media enable young people to communicate more positively?"
+            }
+        ],
+        "surveillance_and_privacy": [
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "4",
+                "text": "It is impossible to maintain privacy in an online environment. Discuss."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "2",
+                "text": "Evaluate the view that increasing surveillance threatens people’s privacy."
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "5",
+                "text": "Internet activity can be easily monitored. Examine whether or not this gives any person or organisation the right to know what other people are doing online."
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "7",
+                "text": "There should be no limits to a country’s surveillance of its citizens. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "7",
+                "text": "Surveillance is only justified in the pursuit of criminals. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "6",
+                "text": "Discuss whether an individual’s online activity should be monitored in the fight against crime and terrorism."
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "6",
+                "text": "‘Facial recognition software and similar technologies may threaten the rights of individuals.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "7",
+                "text": "Surveillance by the state threatens the rights of the individual citizen. To what extent is this true in your country?"
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "5",
+                "text": "Security cameras are essential to keep our towns and cities safe. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "6",
+                "text": "People who obey the law have nothing to fear from surveillance. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "9",
+                "text": "To what extent is surveillance in public places essential in your country?"
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "9",
+                "text": "It is unacceptable to monitor people using information obtained from their mobile devices. Discuss."
+            }
+        ],
+        "environmental_concerns": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "5",
+                "text": "To what extent have human activities unnecessarily destroyed the natural environment of your country?"
+            },
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "4",
+                "text": "Assess how effectively the problem of household waste is being dealt with in your country."
+            },
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "4",
+                "text": "Evaluate how successful your country has been in reducing pollution in its towns and cities."
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "2",
+                "text": "To what extent has your country done enough to manage its environmental problems?"
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "9",
+                "text": "To what extent is it the responsibility of young people to protect the Earth’s environment?"
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "6",
+                "text": "The only way to reduce pollution is to regulate and penalise the companies and countries responsible. Discuss."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "5",
+                "text": "Not enough is being done in your country to tackle climate change. Discuss."
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "6",
+                "text": "Assess whether or not sources of renewable energy offer a necessary and viable alternative to fossil fuels."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "4",
+                "text": "‘Not enough is being done to tackle the problems of waste disposal.’ To what extent is this the case in your country?"
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "4",
+                "text": "Assess whether it is important that areas of natural beauty should be preserved and protected in your country."
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "5",
+                "text": "‘Our oceans are becoming choked with plastic debris, causing damage to all forms of life.’ Evaluate the possible solutions to this environmental issue."
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "7",
+                "text": "Among all the other threats to humanity’s survival, the destruction of the forests is the greatest. To what extent is this true?"
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "4",
+                "text": "Fossil fuel extraction belongs in the past not the future. Evaluate this statement."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "1",
+                "text": "Exploration of the oceans is vital for the survival of the planet. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "4",
+                "text": "To what extent is further development of renewable energy desirable in your country?"
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "6",
+                "text": "Trees have little importance in our increasingly developed world. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "4",
+                "text": "To what extent can human societies learn valuable lessons from the natural world?"
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "5",
+                "text": "With reference to your country, evaluate which environmental issue should have the highest priority."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "4",
+                "text": "Evaluate the actions which could be taken to solve the most serious environmental problem in your country."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "6",
+                "text": "Evaluate what you consider to be the most significant future impacts of climate change."
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "4",
+                "text": "As time passes, the world will end up with too much water. Examine this statement."
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "5",
+                "text": "Humans should do everything possible to save all endangered species. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "5",
+                "text": "The protection of the underwater environment should be the world’s most urgent environmental concern. Discuss."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "3",
+                "text": "People should reduce the amount of meat they eat to protect the environment. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "10",
+                "text": "To what extent are the problems of water pollution being successfully addressed in your country?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "9",
+                "text": "The biggest concern about climate change is the threat that it creates for the people of the world. To what extent do you agree with this view?"
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "8",
+                "text": "To what extent should environmental impacts influence what people choose to wear?"
+            }
+        ],
+        "natural_disasters_including_mitigation_and_management": [
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "5",
+                "text": "Not enough is being done to prevent the loss of life caused by natural disasters. Examine this statement."
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "4",
+                "text": "Human actions can prevent all natural disasters. Evaluate this view."
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "4",
+                "text": "To what extent is it possible for governments to protect their people from the effects of natural disasters?"
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "4",
+                "text": "To what extent should more be done to prepare for possible natural disasters in your country?"
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "6",
+                "text": "To what extent is your country adequately prepared for natural disasters?"
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "7",
+                "text": "‘The human race is powerless when faced with natural disasters.’ Discuss."
+            }
+        ],
+        "rural_and_urban_concerns": [
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "6",
+                "text": "The movement of people from the countryside to cities cannot be sustained. Discuss."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "6",
+                "text": "To what extent is migration from rural to urban areas beneficial to a country?"
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "7",
+                "text": "‘It is more desirable to live in a city than in a rural area.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "5",
+                "text": "Examine the extent to which information and communications technology is having a negative impact on your country."
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "7",
+                "text": "To what extent is the shortage of housing a problem in cities around the world?"
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "7",
+                "text": "All new house-building projects should include some green spaces within their plans. Evaluate this view."
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "1",
+                "text": "Governments should prioritise the needs of people living in rural areas over the needs of people living in cities. Discuss."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "2",
+                "text": "To what extent should towns be designed to support people’s needs?"
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "4",
+                "text": "‘Beautiful spaces enhance personal well-being.’ Examine whether such spaces are valued and maintained in your country."
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "10",
+                "text": "Identify the unique characteristics of a city in your country and explain the extent to which these characteristics are significant."
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "7",
+                "text": "Parks and other green spaces in cities are unnecessary. Discuss."
+            }
+        ],
+        "food_and_water_security": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "5",
+                "text": "Water presents more of a threat than a benefit to the future of the world. Discuss."
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "5",
+                "text": "Only an increase in food production can ensure enough food is available to meet everyone’s needs. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "3",
+                "text": "Water is becoming a major reason for conflict between nations. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "6",
+                "text": "To what extent might it be possible to prevent future famine?"
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "6",
+                "text": "To what extent do you agree that people should avoid eating genetically modified foods?"
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "7",
+                "text": "The lack of clean water is a significant threat to human survival. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "10",
+                "text": "The government of Qatar has laid down the following domestic guidelines: use leftovers, eat plants, cook at home, conserve water. Suggest whether or not your country should adopt such an approach."
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "6",
+                "text": "‘Genetically modified food is the only solution to world hunger.’ Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "5",
+                "text": "Assess the issues which some countries have in achieving and maintaining an adequate food supply."
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "7",
+                "text": "The problem of the global food shortage will never be solved. Discuss."
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "6",
+                "text": "It is increasingly important that people have access to frozen fruit and vegetables. Discuss."
+            }
+        ],
+        "transport_travel_and_tourism": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "6",
+                "text": "Assess the benefits of going on holiday in your own country, rather than travelling abroad."
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "7",
+                "text": "To what extent is public transport an effective way to travel in your country?"
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "6",
+                "text": "Tourism always has a damaging effect on the environment. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "4",
+                "text": "Assess the most efficient ways of transporting people and goods in your country."
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "6",
+                "text": "To what extent do you agree that tourists should not be encouraged to visit remote parts of the world?"
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "6",
+                "text": "To what extent should your country protect the environment when continuing to develop its transport system?"
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "7",
+                "text": "Evaluate the benefits of staying at home during your annual holiday, rather than visiting a foreign country."
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "6",
+                "text": "To what extent is it necessary to reduce the number of vehicles on the roads of your country?"
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "6",
+                "text": "Evaluate the effectiveness of public transport provision in your country."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "4",
+                "text": "To discover and learn, it is necessary to travel. Evaluate this statement."
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "5",
+                "text": "The problems caused by tourism are always greater than the benefits. Examine this statement."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "10",
+                "text": "To what extent is the introduction of electric vehicles a positive development?"
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "4",
+                "text": "To what extent are the problems of traffic congestion being effectively dealt with in your country?"
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "5",
+                "text": "To what extent does tourism make a positive contribution to your country’s economy?"
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "5",
+                "text": "The increased use of bicycles can provide an answer to the world’s environmental problems. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "6",
+                "text": "Electric cars will be the most common form of road transport in the future. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "2",
+                "text": "Assess whether travelling by aeroplane is the best form of travel."
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "6",
+                "text": "Passengers should not have to pay for public transport in your country. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "1",
+                "text": "Tourism ensures the survival of remote communities. To what extent is this true in your country?"
+            }
+        ],
+        "the_uses_and_applications_of_mathematics": [
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "6",
+                "text": "It is not necessary to study mathematics after primary school. Discuss."
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "9",
+                "text": "Mathematics is fun. To what extent do you agree?"
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "5",
+                "text": "Evaluate how data and statistics can help people to make important choices in their lives."
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "8",
+                "text": "Using statistical data is crucial when making decisions. Discuss."
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "5",
+                "text": "‘Mathematics is the language of science and art.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "4",
+                "text": "The use of data alone is not enough to ensure accurate decision-making. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "7",
+                "text": "Assess the importance of mathematics in education."
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "5",
+                "text": "‘Mathematical accuracy is unnecessary in everyday life.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "6",
+                "text": "‘The modern world is obsessed with statistics.’ Assess the risks of only using statistics when making important decisions."
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "6",
+                "text": "Evaluate the importance of mathematics in the world as you experience it."
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "6",
+                "text": "To what extent has the use of mathematics positively changed the world we live in?"
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "7",
+                "text": "Evaluate the advantages and disadvantages of mathematical modelling."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "6",
+                "text": "Evaluate the extent to which the use of mathematics is essential in the world today."
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "2",
+                "text": "Mathematics has more importance in the classroom than in the outside world. Discuss."
+            }
+        ]
+    },
+    "literature_language_arts_crafts_and_media": {
+        "literature": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "7",
+                "text": "Literature should explore the less acceptable parts of human behaviour. Examine this statement."
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "1",
+                "text": "A good book will challenge the reader's view of the world. Evaluate this claim."
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "10",
+                "text": "Evaluate the extent to which works of fiction rely on the personal experiences of the author."
+            },
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "8",
+                "text": "To what extent can children’s literature be enjoyed by adults?"
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "7",
+                "text": "To what extent do you agree that reading is the best way to acquire knowledge?"
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "10",
+                "text": "‘When power leads man towards arrogance, poetry reminds him of his limitations.’ (John F Kennedy) To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "8",
+                "text": "‘Monsters in films, fairy tales and books force us to imagine the worst about ourselves.’ Evaluate this statement with reference to at least two examples."
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "10",
+                "text": "Identify an author from your country and justify the study of one or more of their works in schools."
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "8",
+                "text": "Evaluate the effectiveness of film or literature in portraying the reality of your country."
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "9",
+                "text": "Examine whether or not the reading of fiction enhances our understanding of human nature. You should refer to novels you have read."
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "9",
+                "text": "Evaluate whether poets have any role to play in society."
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "7",
+                "text": "Poetry is irrelevant in the modern world. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "7",
+                "text": "Evaluate the importance of ‘the hero/heroine’ to readers of fiction books."
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "10",
+                "text": "Assess the view that the main aim of children’s fiction is to encourage a love of reading."
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "8",
+                "text": "Reading more books would have a positive impact on society. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "8",
+                "text": "Stories written in the past still have relevance today. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "8",
+                "text": "Works of fiction have no relevance to the reality of everyday life. Evaluate this statement."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "8",
+                "text": "Examine whether or not the reading of fiction enhances our understanding of human nature. You should refer to novels you have read."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "9",
+                "text": "‘Film adaptations of books are rarely as successful as the original writing.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "9",
+                "text": "Examine the view that it is the responsibility of art and literature to challenge society’s values."
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "8",
+                "text": "Examine how the literature of your country influences people’s feelings and attitudes."
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "9",
+                "text": "Films and live performances based on books can never replace the joy of reading. Discuss."
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "10",
+                "text": "Assess the view that literature from the past has no relevance to modern life."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "8",
+                "text": "Wild creatures have a special appeal to the artistic imagination. Examine the basis for this statement with reference to any poems or novels you have read."
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "10",
+                "text": "To what extent does literature reveal what it is to be human?"
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "10",
+                "text": "To what extent does a good story need to have believable characters?"
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "5",
+                "text": "Assess whether the novel or poetry is more effective in expressing how we experience life."
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "2",
+                "text": "Evaluate the usefulness of science fiction in solving current problems."
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "4",
+                "text": "Evaluate the extent to which literature can change how people think."
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "3",
+                "text": "Books inspire the minds of children. To what extent do you agree with this claim?"
+            }
+        ],
+        "non_fiction_writing": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "9",
+                "text": "Evaluate the extent to which books about remarkable people or events can inspire their readers."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "8",
+                "text": "To what extent are works of non-fiction more important than fictional works?"
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "8",
+                "text": "‘Autobiographies are more reliable than biographies.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "3",
+                "text": "Non-fiction books will never be as popular as fiction books. To what extent do you agree with this statement?"
+            }
+        ],
+        "language": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "10",
+                "text": "Evaluate whether having a global language would lead to a more united world."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "9",
+                "text": "The ability to communicate in more than one language is unnecessary. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "10",
+                "text": "It is no longer necessary to learn to write by hand. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "9",
+                "text": "In attempting to translate from one language into another, something will always be lost. How far do you agree?"
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "10",
+                "text": "Assess the importance of learning a second language."
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "9",
+                "text": "To what extent do you agree that the continued use of minority languages should be encouraged?"
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "8",
+                "text": "To what extent are languages a barrier to world cooperation in your country?"
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "9",
+                "text": "English is the world’s most common language. To what extent is this desirable?"
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "9",
+                "text": "Non-verbal communication can be very effective. To what extent do you agree with this judgement?"
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "2",
+                "text": "Technological advances will make learning to speak other languages unnecessary. Evaluate to what extent this statement is true."
+            }
+        ],
+        "performing_arts": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "10",
+                "text": "To what extent is music used for purposes other than entertainment in your country?"
+            },
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "1",
+                "text": "Evaluate the influence that the performing arts have on young people."
+            },
+            {
+                "paper": "8019_w24_qp_1",
+                "question": "8",
+                "text": "Music is better experienced with other people. Discuss."
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "8",
+                "text": "Music has a significant impact on society and individuals. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "10",
+                "text": "Participation in drama or other performing arts brings only benefits to young people. Discuss."
+            },
+            {
+                "paper": "8021_m25_qp_12",
+                "question": "10",
+                "text": "Evaluate the importance of live music to people in your country."
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "8",
+                "text": "‘Music is a universal and unifying language.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "9",
+                "text": "‘Going to a theatre to experience a live event is far more enjoyable and interesting than going to a cinema.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "10",
+                "text": "Evaluate the importance of the live music and/or theatre experience for both performer and audience."
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "8",
+                "text": "Music that is popular today is heavily influenced by the past. Discuss."
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "4",
+                "text": "Governments should be responsible for funding a nation’s performing arts. Discuss."
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "8",
+                "text": "Attending a live performance is the best way to experience music. Evaluate this statement."
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "9",
+                "text": "Assess the extent to which music can influence a person’s life."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "9",
+                "text": "The best way to watch a movie is at home. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "8",
+                "text": "To what extent does dance play an important role in the life of your country?"
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "10",
+                "text": "To what extent has technology had a negative impact on the music industry?"
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "10",
+                "text": "Musicians not only make music, but also make a significant contribution to society and culture. Discuss."
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "9",
+                "text": "Actors playing leading roles in movies are too often chosen for their physical appearance. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "7",
+                "text": "Discuss whether the performing arts are important to the culture of your country."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "10",
+                "text": "‘Melody is essential to music.’ Discuss this view with reference to music you know well."
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "10",
+                "text": "‘The most memorable music is that which tells a story.’ Discuss."
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "10",
+                "text": "‘This music captures the times we live in.’ Evaluate whether the music you listen to does this."
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "10",
+                "text": "Evaluate the extent to which music reflects society."
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "9",
+                "text": "Theatrical plays written before the twenty-first century have no relevance to life today. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "10",
+                "text": "Involvement in performing arts, such as learning a musical instrument or performing in a play, can benefit people’s lives. Discuss."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "1",
+                "text": "Evaluate the view that horror movies no longer have the impact they once did."
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "5",
+                "text": "Assess the view that comedy can never successfully deal with serious topics."
+            },
+            {
+                "paper": "8021_w24_qp_12",
+                "question": "10",
+                "text": "Examine the view that live theatre is not an accessible art form in your country."
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "9",
+                "text": "The impact of music on people’s lives is always positive. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "8",
+                "text": "To what extent has digital media negatively impacted attendance at live performances?"
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "10",
+                "text": "Songs have the power to divide as well as unite people. Discuss."
+            }
+        ],
+        "visual_arts": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "8",
+                "text": "Creativity is only to be found in the various types of artistic expression. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "8",
+                "text": "Nature is always presented positively in books, paintings and music. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "8",
+                "text": "‘Sculpture has existed since early times.’ Evaluate the cultural significance of this art form."
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "8",
+                "text": "Explain why artists, such as painters, filmmakers or musicians, are often inspired by terrible events in human history."
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "8",
+                "text": "Illustrations and pictures are as important as the written word in communicating ideas. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "10",
+                "text": "To what extent do visual arts play a vital role in today’s world?"
+            },
+            {
+                "paper": "8021_s24_qp_11",
+                "question": "9",
+                "text": "Evaluate the view that the arts should not be about making money."
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "8",
+                "text": "‘Fascination with the sea is common among writers, composers and artists.’ With reference to any forms of artistic expression, suggest why the sea might provide inspiration."
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "7",
+                "text": "‘The most important quality of a work of art is its appeal to the audience.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w20_qp_12",
+                "question": "9",
+                "text": "To what extent are pictures more powerful than words?"
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "9",
+                "text": "To what extent do you agree that films, literature or paintings can only reflect the real world?"
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "10",
+                "text": "Cartoons and animations have no serious purpose. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w24_qp_11",
+                "question": "7",
+                "text": "Creative arts have no value other than as a leisure activity. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_12",
+                "question": "8",
+                "text": "Visual forms of art express emotions in ways that written words cannot achieve. Discuss."
+            }
+        ],
+        "applied_arts": [
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "10",
+                "text": "Assess how successfully recycled materials are used for arts and crafts in your country."
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "9",
+                "text": "‘Cookery is the only art form available to everyone.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_13",
+                "question": "10",
+                "text": "Examine whether objects that are used every day should be beautiful as well as useful."
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "2",
+                "text": "The most successful businesses make the biggest profits. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "8",
+                "text": "The main purpose of architecture is to add beauty to the environment. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "5",
+                "text": "Food is a work of art not just a necessity. Discuss."
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "10",
+                "text": "The usefulness of household appliances and furniture is more important than their appearance. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "4",
+                "text": "Designers should always ensure that what they create is visually attractive. To what extent do you agree with this statement?"
+            }
+        ],
+        "arts_institutions_and_venues": [
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "8",
+                "text": "‘Works of art are not just found in museums and galleries, but everywhere around us.’ Evaluate this statement."
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "7",
+                "text": "Museums and/or art galleries are no longer required now we can view their contents online. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "9",
+                "text": "Museums have no right to hold and exhibit items that belong to other countries. Discuss."
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "3",
+                "text": "To what extent are art galleries and museums still necessary?"
+            },
+            {
+                "paper": "8021_s25_qp_13",
+                "question": "7",
+                "text": "Government investment is essential for local community arts to survive. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "9",
+                "text": "The main responsibility of museums is to educate people about their history. Discuss."
+            }
+        ],
+        "traditional_arts_and_crafts_heritage": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "8",
+                "text": "Assess the extent to which traditional arts and crafts should be preserved in your country."
+            },
+            {
+                "paper": "8021_m21_qp_12",
+                "question": "9",
+                "text": "To what extent do you agree that all buildings of historical significance should be preserved in your country?"
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "9",
+                "text": "To what extent are traditional arts and crafts a vital part of your country’s heritage?"
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "9",
+                "text": "‘It is important for cultures to preserve their traditional beliefs and customs.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "9",
+                "text": "Evaluate the importance of festivals and celebrations in uniting the people of your country."
+            },
+            {
+                "paper": "8021_s20_qp_12",
+                "question": "9",
+                "text": "‘National celebrations, rather than uniting people, can divide them.’ To what extent do you agree with reference to your country?"
+            },
+            {
+                "paper": "8021_s23_qp_12",
+                "question": "1",
+                "text": "Assess whether your country’s traditions are holding back its development."
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "8",
+                "text": "Evaluate the importance of traditional stories to the people of your country."
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "2",
+                "text": "To what extent do traditional arts and crafts provide an understanding of your country’s history?"
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "7",
+                "text": "Examine how important it is that the production of traditional crafts continues in your country."
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "7",
+                "text": "To what extent do you agree that the government of your country should give substantial financial support to the arts and crafts?"
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "8",
+                "text": "‘As the world becomes more of a global community, it is important to preserve traditional cultures in your country.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w21_qp_13",
+                "question": "8",
+                "text": "To what extent does your country’s heritage restrict its development in the modern world?"
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "10",
+                "text": "To what extent is it important to keep traditional arts alive in your country?"
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "8",
+                "text": "Arts and crafts play no role in maintaining the heritage of your country. Evaluate this statement."
+            },
+            {
+                "paper": "8021_w25_qp_11",
+                "question": "5",
+                "text": "Traditional arts and crafts are not appreciated enough in your country. To what extent do you agree with this statement?"
+            }
+        ],
+        "print_and_digital_media": [
+            {
+                "paper": "8019_w22_qp_1",
+                "question": "9",
+                "text": "The main purpose of films is to entertain. Evaluate this view."
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "2",
+                "text": "Assess the view that print media is no longer needed in today’s world of digital devices."
+            },
+            {
+                "paper": "8021_m24_qp_12",
+                "question": "9",
+                "text": "To what extent does online news remove the need for printed newspapers?"
+            },
+            {
+                "paper": "8021_s19_qp_11",
+                "question": "7",
+                "text": "To what extent is the media in your country biased?"
+            },
+            {
+                "paper": "8021_s19_qp_13",
+                "question": "7",
+                "text": "‘News media cannot be trusted to report the truth.’ To what extent is this the case in your country?"
+            },
+            {
+                "paper": "8021_s20_qp_11",
+                "question": "10",
+                "text": "To what extent has the communication of news been revolutionised in your country in the last 50 years?"
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "8",
+                "text": "To what extent do films have to be realistic to be enjoyable?"
+            },
+            {
+                "paper": "8021_s22_qp_11",
+                "question": "10",
+                "text": "The media has become a dangerous part of daily life. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s22_qp_12",
+                "question": "9",
+                "text": "To what extent do television programmes have a negative influence on people?"
+            },
+            {
+                "paper": "8021_s22_qp_13",
+                "question": "10",
+                "text": "News media must always tell the truth. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "3",
+                "text": "Television will always be the most popular form of entertainment. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s23_qp_13",
+                "question": "9",
+                "text": "Digital media does more harm than good. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_12",
+                "question": "9",
+                "text": "Television has no educational benefits. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w20_qp_11",
+                "question": "8",
+                "text": "‘Journalists should not interfere in the lives of celebrities.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w20_qp_13",
+                "question": "7",
+                "text": "‘Blogs are the most reliable source of information.’ Discuss."
+            },
+            {
+                "paper": "8021_w21_qp_11",
+                "question": "8",
+                "text": "Newspapers in your country should not be allowed to publish the views of just one person or organisation. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_11",
+                "question": "10",
+                "text": "Printed newspapers, magazines, books and comics are no longer needed in our digital age. Discuss."
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "7",
+                "text": "The digital book is never likely to replace the printed one. How far do you agree?"
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "7",
+                "text": "To what extent have streaming services benefited the film industry?"
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "8",
+                "text": "Television dramas about historical events are a good way to learn about the past. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_11",
+                "question": "9",
+                "text": "News should only be published or broadcast with the consent of those it is about. Discuss."
+            },
+            {
+                "paper": "8021_w23_qp_13",
+                "question": "7",
+                "text": "Understanding the target audience is the most important consideration for a journalist when writing for a newspaper or magazine. Discuss."
+            }
+        ],
+        "advertising": [
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "8",
+                "text": "The popularity of a film or movie depends upon how it is publicised. Discuss."
+            },
+            {
+                "paper": "8019_w23_qp_1",
+                "question": "9",
+                "text": "To what extent should parents in your country be responsible for limiting the amount of advertising their children see?"
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "8",
+                "text": "Advertising is unnecessary if the product is good enough. Evaluate this claim."
+            },
+            {
+                "paper": "8021_m23_qp_12",
+                "question": "10",
+                "text": "To what extent can advertising be trusted?"
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "9",
+                "text": "Targeted online advertising is nothing more than an invasion of privacy. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_13",
+                "question": "10",
+                "text": "Advertising is losing its influence on people in the world today. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "2",
+                "text": "Advertising is ineffective without visual images. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "8",
+                "text": "Advertising has become an unwelcome feature of our lives. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_w19_qp_12",
+                "question": "9",
+                "text": "‘Television advertising rarely tells the truth.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w21_qp_12",
+                "question": "9",
+                "text": "Stricter regulation is the only way to guarantee the truthfulness of advertisements. To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w22_qp_13",
+                "question": "7",
+                "text": "To what extent has advertising been improved by digital technology?"
+            },
+            {
+                "paper": "8021_w23_qp_12",
+                "question": "9",
+                "text": "To what extent has society become too influenced by advertising?"
+            },
+            {
+                "paper": "8021_w24_qp_13",
+                "question": "10",
+                "text": "To what extent is advertising a form of art?"
+            }
+        ],
+        "censorship_and_freedom_of_the_media_and_the_arts": [
+            {
+                "paper": "8019_s21_qp_01",
+                "question": "7",
+                "text": "To what extent is it necessary to monitor the content of social media?"
+            },
+            {
+                "paper": "8019_w25_qp_01",
+                "question": "10",
+                "text": "To what extent is censorship of films/movies necessary?"
+            },
+            {
+                "paper": "8021_m22_qp_12",
+                "question": "9",
+                "text": "Evaluate the need for censorship in films and television."
+            },
+            {
+                "paper": "8021_s19_qp_12",
+                "question": "7",
+                "text": "To what extent should television and radio be independent of government control in your country?"
+            },
+            {
+                "paper": "8021_s21_qp_11",
+                "question": "8",
+                "text": "Censorship of any form of artistic expression is unjustifiable. Discuss."
+            },
+            {
+                "paper": "8021_s21_qp_12",
+                "question": "10",
+                "text": "News that is free of censorship is the only way that people can find out the truth. Discuss."
+            },
+            {
+                "paper": "8021_s23_qp_11",
+                "question": "5",
+                "text": "The removal of works of art from public view is necessary when what they represent is now seen as unacceptable. Discuss."
+            },
+            {
+                "paper": "8021_s24_qp_13",
+                "question": "10",
+                "text": "Free speech should mean that news media is never censored. To what extent do you agree with this statement?"
+            },
+            {
+                "paper": "8021_s25_qp_11",
+                "question": "2",
+                "text": "Discuss the view that the news media should never be censored in your country."
+            },
+            {
+                "paper": "8021_s25_qp_12",
+                "question": "9",
+                "text": "Effective censorship of the media is not possible today. Discuss."
+            },
+            {
+                "paper": "8021_w19_qp_11",
+                "question": "9",
+                "text": "‘Freedom of the media is important in a democracy.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w19_qp_13",
+                "question": "8",
+                "text": "‘There should be no censorship of the arts.’ To what extent do you agree?"
+            },
+            {
+                "paper": "8021_w22_qp_12",
+                "question": "8",
+                "text": "Censorship of the arts can never be justified. Discuss."
+            },
+            {
+                "paper": "8021_w25_qp_13",
+                "question": "10",
+                "text": "Any media with disturbing content should always begin with a clear warning for viewers. Discuss."
+            }
+        ]
+    }
+}

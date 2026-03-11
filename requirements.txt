@@ -1,2 +1,4 @@
+mcp
 fastmcp
+uvicorn
 starlette

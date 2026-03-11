@@ -4,15 +4,24 @@ import random
 import re
 from collections import defaultdict
 from fastmcp import FastMCP
+from starlette.middleware.cors import CORSMiddleware
 
 # ── Init ──────────────────────────────────────────────────────────────────────
-os.environ.setdefault("FASTMCP_HOST", "0.0.0.0")
-os.environ.setdefault("FASTMCP_PORT", os.environ.get("PORT", "8000"))
-
 mcp = FastMCP("GP Question Bank")
 
 with open("classified_questions.json", "r") as f:
     QUESTION_DB = json.load(f)
+
+# ── CORS Middleware ───────────────────────────────────────────────────────────
+# Access the underlying Starlette/ASGI app and add CORS
+app = mcp.get_app()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],          # Allow all origins (restrict in production)
+    allow_credentials=True,
+    allow_methods=["*"],          # Allow all HTTP methods
+    allow_headers=["*"],          # Allow all headers
+)
 
 # ── Friendly display names ────────────────────────────────────────────────────
 CATEGORY_LABELS = {
@@ -21,8 +30,10 @@ CATEGORY_LABELS = {
     "literature_language_arts_crafts_and_media":      "Literature, Language, Arts, Crafts & Media",
 }
 
+
 def _fmt_category(key: str) -> str:
     return CATEGORY_LABELS.get(key, key.replace("_", " ").title())
+
 
 def _all_questions() -> list[dict]:
     """Flat list of every question with category + sub_topic attached."""
@@ -81,7 +92,6 @@ def get_sub_topics(category: str) -> list[dict]:
     Pass the category key (e.g. 'economic_historical_moral_political_and_social')
     or a partial/friendly name — the tool will fuzzy-match.
     """
-    # fuzzy match
     matched = None
     for key in QUESTION_DB:
         if category.lower() in key.lower() or key.lower() in category.lower():
@@ -109,7 +119,6 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
     Both arguments support fuzzy/partial matching.
     Each question includes: paper code, question number, and full text.
     """
-    # match category
     matched_cat = None
     for key in QUESTION_DB:
         if category.lower() in key.lower() or key.lower() in category.lower():
@@ -118,7 +127,6 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
     if not matched_cat:
         return [{"error": f"Category '{category}' not found."}]
 
-    # match sub-topic
     matched_sub = None
     for sub in QUESTION_DB[matched_cat]:
         if sub_topic.lower() in sub.lower() or sub.lower() in sub_topic.lower():
@@ -141,7 +149,7 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
 
 # ════════════════════════════════════════════════════════════════════════════
 # 2. SEARCH
-# ════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════════════════════��══════════════════════════════════
 
 @mcp.tool()
 def search_questions(keyword: str, max_results: int = 20) -> dict:
@@ -381,11 +389,9 @@ def get_questions_by_year(year: str) -> dict:
     Args:
         year: 2-digit or 4-digit year, e.g. '22' or '2022'.
     """
-    # normalise to 2-digit suffix used in paper codes
     yr = year[-2:] if len(year) >= 2 else year
     results = []
     for q in _all_questions():
-        # paper codes contain 'w22', 's22', 'm22' style
         if f"_{yr}_" in q["paper"] or q["paper"].endswith(f"_{yr}"):
             results.append({
                 "paper": q["paper"],
@@ -410,15 +416,15 @@ def get_keyword_frequency(top_n: int = 20) -> list[dict]:
         top_n: How many top keywords to return (default 20).
     """
     STOP = {
-        "the","a","an","and","or","but","in","on","to","of","for","with",
-        "that","this","is","are","was","were","be","been","being","have",
-        "has","had","do","does","did","will","would","could","should","may",
-        "might","shall","can","not","it","its","as","by","from","at","how",
-        "what","why","when","which","who","whether","if","than","more","less",
-        "their","there","they","we","our","your","his","her","its","my","i",
-        "you","he","she","them","us","into","about","these","those","such",
-        "any","all","no","so","up","out","some","much","many","also","both",
-        "each","other","own","same","even","extent","should","view","assess",
+        "the", "a", "an", "and", "or", "but", "in", "on", "to", "of", "for", "with",
+        "that", "this", "is", "are", "was", "were", "be", "been", "being", "have",
+        "has", "had", "do", "does", "did", "will", "would", "could", "should", "may",
+        "might", "shall", "can", "not", "it", "its", "as", "by", "from", "at", "how",
+        "what", "why", "when", "which", "who", "whether", "if", "than", "more", "less",
+        "their", "there", "they", "we", "our", "your", "his", "her", "its", "my", "i",
+        "you", "he", "she", "them", "us", "into", "about", "these", "those", "such",
+        "any", "all", "no", "so", "up", "out", "some", "much", "many", "also", "both",
+        "each", "other", "own", "same", "even", "extent", "should", "view", "assess",
     }
     freq: dict[str, int] = defaultdict(int)
     for q in _all_questions():
@@ -448,7 +454,7 @@ def compare_topics(sub_topic_a: str, sub_topic_b: str) -> dict:
 
     def _top_words(qs):
         freq: dict[str, int] = defaultdict(int)
-        STOP = {"the","a","an","and","or","to","of","for","is","are","in","that","this"}
+        STOP = {"the", "a", "an", "and", "or", "to", "of", "for", "is", "are", "in", "that", "this"}
         for q in qs:
             for w in re.findall(r"[a-zA-Z]{4,}", q["text"].lower()):
                 if w not in STOP:
@@ -497,7 +503,6 @@ def get_revision_priority(weak_topics: list[str]) -> dict:
                         "question_count": len(qs),
                         "questions": [q["text"] for q in qs],
                     }
-    # sort by question count (more = higher exam frequency)
     ordered = dict(sorted(results.items(), key=lambda x: x[1]["question_count"], reverse=True))
     return {
         "suggested_study_order": list(ordered.keys()),
@@ -514,7 +519,7 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
         question_text: The question (or theme) you want to find similar ones to.
         top_n:         How many similar questions to return (default 5).
     """
-    STOP = {"the","a","an","and","or","to","of","for","is","are","in","that","this","with","how"}
+    STOP = {"the", "a", "an", "and", "or", "to", "of", "for", "is", "are", "in", "that", "this", "with", "how"}
     query_words = set(re.findall(r"[a-zA-Z]{3,}", question_text.lower())) - STOP
     scored = []
     for q in _all_questions():
@@ -541,4 +546,8 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    mcp.run(transport="http")
+    mcp.run(
+        transport="http",
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8000)),
+    )

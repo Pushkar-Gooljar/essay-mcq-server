@@ -4,10 +4,21 @@ import random
 import re
 from collections import defaultdict
 from mcp.server.fastmcp import FastMCP
+from starlette.middleware.cors import CORSMiddleware
 
 # ── Init ──────────────────────────────────────────────────────────────────────
 port = int(os.environ.get("PORT", 8000))
 mcp = FastMCP("GP Question Bank", host="0.0.0.0", port=port)
+
+# ── CORS ──────────────────────────────────────────────────────────────────────
+app = mcp.sse_app()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],            # lock this down in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 with open("classified_questions.json", "r") as f:
     QUESTION_DB = json.load(f)
@@ -79,7 +90,6 @@ def get_sub_topics(category: str) -> list[dict]:
     Pass the category key (e.g. 'economic_historical_moral_political_and_social')
     or a partial/friendly name — the tool will fuzzy-match.
     """
-    # fuzzy match
     matched = None
     for key in QUESTION_DB:
         if category.lower() in key.lower() or key.lower() in category.lower():
@@ -107,7 +117,6 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
     Both arguments support fuzzy/partial matching.
     Each question includes: paper code, question number, and full text.
     """
-    # match category
     matched_cat = None
     for key in QUESTION_DB:
         if category.lower() in key.lower() or key.lower() in category.lower():
@@ -116,7 +125,6 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
     if not matched_cat:
         return [{"error": f"Category '{category}' not found."}]
 
-    # match sub-topic
     matched_sub = None
     for sub in QUESTION_DB[matched_cat]:
         if sub_topic.lower() in sub.lower() or sub.lower() in sub_topic.lower():
@@ -379,11 +387,9 @@ def get_questions_by_year(year: str) -> dict:
     Args:
         year: 2-digit or 4-digit year, e.g. '22' or '2022'.
     """
-    # normalise to 2-digit suffix used in paper codes
     yr = year[-2:] if len(year) >= 2 else year
     results = []
     for q in _all_questions():
-        # paper codes contain 'w22', 's22', 'm22' style
         if f"_{yr}_" in q["paper"] or q["paper"].endswith(f"_{yr}"):
             results.append({
                 "paper": q["paper"],
@@ -495,7 +501,6 @@ def get_revision_priority(weak_topics: list[str]) -> dict:
                         "question_count": len(qs),
                         "questions": [q["text"] for q in qs],
                     }
-    # sort by question count (more = higher exam frequency)
     ordered = dict(sorted(results.items(), key=lambda x: x[1]["question_count"], reverse=True))
     return {
         "suggested_study_order": list(ordered.keys()),
@@ -539,4 +544,5 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    mcp.run(transport="sse")
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=port)

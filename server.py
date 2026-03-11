@@ -538,5 +538,6 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    mcp.run(transport="sse", host="0.0.0.0", port=port)
+    os.environ["FASTMCP_PORT"] = os.environ.get("PORT", "8000")
+    os.environ["FASTMCP_HOST"] = "0.0.0.0"
+    mcp.run(transport="sse")

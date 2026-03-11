@@ -104,7 +104,5 @@ def generate_mock_paper() -> List[Dict]:
     return formatted_paper
 
 if __name__ == "__main__":
-    # For Railway deployment, we use SSE transport and bind to 0.0.0.0
-    port = int(os.environ.get("PORT", 8000))
-    print(f"Starting General Paper MCP Server on port {port}...")
-    mcp.run(transport='sse', host="0.0.0.0", port=port)
+
+    mcp.run(transport='sse')

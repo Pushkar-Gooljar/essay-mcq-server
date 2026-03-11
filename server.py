@@ -6,18 +6,12 @@ from collections import defaultdict
 from mcp.server.fastmcp import FastMCP
 from starlette.middleware.cors import CORSMiddleware
 
-# ── Init ──────────────────────────────────────────────────────────────────────
 port = int(os.environ.get("PORT", 8000))
-mcp = FastMCP("GP Question Bank", host="0.0.0.0", port=port)
-
-# ── CORS ──────────────────────────────────────────────────────────────────────
-app = mcp.sse_app()
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],            # lock this down in production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+mcp = FastMCP(
+    "GP Question Bank",
+    host="0.0.0.0",
+    port=port,
+    cors_origins=["*"],  # <-- built-in CORS support
 )
 
 with open("classified_questions.json", "r") as f:
@@ -544,5 +538,4 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    mcp.run(transport="sse")

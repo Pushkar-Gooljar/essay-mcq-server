@@ -12,17 +12,6 @@ mcp = FastMCP("GP Question Bank")
 with open("classified_questions.json", "r") as f:
     QUESTION_DB = json.load(f)
 
-# ── CORS Middleware ───────────────────────────────────────────────────────────
-# Access the underlying Starlette/ASGI app and add CORS
-app = mcp.get_app()
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],          # Allow all origins (restrict in production)
-    allow_credentials=True,
-    allow_methods=["*"],          # Allow all HTTP methods
-    allow_headers=["*"],          # Allow all headers
-)
-
 # ── Friendly display names ────────────────────────────────────────────────────
 CATEGORY_LABELS = {
     "economic_historical_moral_political_and_social": "Economic, Historical, Moral, Political & Social",
@@ -45,7 +34,7 @@ def _all_questions() -> list[dict]:
     return out
 
 
-# ════════════════════════════════════════════════════════════════════════════
+# ═════════════════════════���══════════════════════════════════════════════════
 # 1. BROWSE / NAVIGATION
 # ════════════════════════════════════════════════════════════════════════════
 
@@ -149,7 +138,7 @@ def get_questions_by_topic(category: str, sub_topic: str) -> list[dict]:
 
 # ════════════════════════════════════════════════════════════════════════════
 # 2. SEARCH
-# ═════════════════════════════════════════��══════════════════════════════════
+# ════════════════════════════════════════════════════════════════════════════
 
 @mcp.tool()
 def search_questions(keyword: str, max_results: int = 20) -> dict:
@@ -542,12 +531,31 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
 
 
 # ════════════════════════════════════════════════════════════════════════════
-# Entry point
+# Entry point — uses uvicorn directly so we have full control over CORS
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    mcp.run(
-        transport="http",
+    import uvicorn
+    from starlette.middleware.cors import CORSMiddleware
+
+    # Get the ASGI app from FastMCP
+    app = mcp.http_app(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8000)),
+    )
+
+    # Wrap it with CORS middleware
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
+    # Run with uvicorn
+    uvicorn.run(
+        app,
         host="0.0.0.0",
         port=int(os.environ.get("PORT", 8000)),
     )

@@ -6,7 +6,10 @@ from collections import defaultdict
 from fastmcp import FastMCP
 
 # ── Init ──────────────────────────────────────────────────────────────────────
-mcp = FastMCP("GP Question Bank", host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
+os.environ.setdefault("FASTMCP_HOST", "0.0.0.0")
+os.environ.setdefault("FASTMCP_PORT", os.environ.get("PORT", "8000"))
+
+mcp = FastMCP("GP Question Bank")
 
 with open("classified_questions.json", "r") as f:
     QUESTION_DB = json.load(f)

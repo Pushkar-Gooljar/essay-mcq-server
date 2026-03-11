@@ -6,7 +6,7 @@ from collections import defaultdict
 from mcp.server.fastmcp import FastMCP
 
 # ── Init ──────────────────────────────────────────────────────────────────────
-mcp = FastMCP("GP Question Bank")
+mcp = FastMCP("GP Question Bank", host="0.0.0.0")
 
 with open("classified_questions.json", "r") as f:
     QUESTION_DB = json.load(f)
@@ -538,6 +538,5 @@ def get_similar_questions(question_text: str, top_n: int = 5) -> list[dict]:
 # ════════════════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    os.environ["FASTMCP_PORT"] = os.environ.get("PORT", "8000")
-    os.environ["FASTMCP_HOST"] = "0.0.0.0"
-    mcp.run(transport="sse")
+    port = int(os.environ.get("PORT", 8000))
+    mcp.run(transport="sse", port=port)
